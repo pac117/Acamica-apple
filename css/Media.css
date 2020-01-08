@@ -1,0 +1,239 @@
+@media (max-width: 767px)
+{
+    span {
+        display: flex;
+    }
+
+    ol{
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .money {
+        padding: 0;
+    }
+
+    .divLine {
+        border-bottom: 1px solid #d2d2d7;
+        margin-left: 30px;
+        margin-right: 76px;
+    }
+
+    .money li{
+        margin-left: 26px;
+    }
+
+    .row {
+        display: inline !important;
+    }
+
+    .titles {
+        font-weight: 600;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        line-height: 30px;
+    }
+    .divIphone {
+        margin-left: 30px;
+    }
+
+    .middleLine {
+        border-bottom: 1px solid #d2d2d7;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .footer2 {
+        margin-left: 30px
+    }
+
+    .end {
+        display: inline;
+        line-height: 20px;
+    }
+
+    .search a {
+        margin: 0;
+    }
+
+    .iconCity {
+        margin: 0;
+    }
+
+    .hamburger {
+        align-items: center;
+    }
+
+    label {
+        display: flex !important ;
+        justify-content: space-between !important; 
+        margin: 0 !important;
+    }
+
+    /*Menu hamburguesa 1*/
+
+    #hamburgerCheck1 {
+        display: none;
+    }
+    
+    #hamburgerCheck1:checked + .hamburgerTitle1 span {
+        display: none;
+    }
+    
+    #hamburgerCheck1:checked + .hamburgerTitle1:after {
+          content:'x';
+    }
+    
+    #hamburgerCheck1:checked ~ .menu1 {
+        display: block;
+    }
+    
+    .menu1 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu1 a {
+        color: #212529;
+    }
+
+    /*Menu hamburguesa 2*/
+
+    #hamburgerCheck2 {
+        display: none;
+    }
+    
+    #hamburgerCheck2:checked + .hamburgerTitle2 span {
+        display: none;
+    }
+    
+    #hamburgerCheck2:checked + .hamburgerTitle2:after {
+          content:'x';
+    }
+    
+    #hamburgerCheck2:checked ~ .menu2 {
+        display: block;
+    }
+    
+    .menu2 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu2 a {
+        color: #212529;
+    }
+
+    /*Menu hamburguesa 3*/
+
+    #hamburgerCheck3 {
+        display: none;
+    }
+    
+    #hamburgerCheck3:checked + .hamburgerTitle3 span {
+        display: none;
+    }
+    
+    #hamburgerCheck3:checked + .hamburgerTitle3:after {
+          content:'x';
+    }
+    
+    #hamburgerCheck3:checked ~ .menu3 {
+        display: block;
+    }
+    
+    .menu3 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu3 a {
+        color: #212529;
+    }
+
+    /*Menu hamburguesa 4*/
+
+    #hamburgerCheck4 {
+        display: none;
+    }
+    
+    #hamburgerCheck4:checked + .hamburgerTitle4 span {
+        display: none;
+    }
+    
+    #hamburgerCheck4:checked + .hamburgerTitle4:after {
+        content:'x';
+    }
+    
+    #hamburgerCheck4:checked ~ .menu4 {
+        display: block;
+    }
+    
+    .menu4 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu4 a {
+        color: #212529;
+    }
+
+    /*Menu hamburguesa 5*/
+
+    #hamburgerCheck5 {
+        display: none;
+    }
+    
+    #hamburgerCheck5:checked + .hamburgerTitle5 span {
+        display: none;
+    }
+    
+    #hamburgerCheck5:checked + .hamburgerTitle5:after {
+        content:'x';
+    }
+    
+    #hamburgerCheck5:checked ~ .menu5 {
+        display: block;
+    }
+    
+    .menu5 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu5 a {
+        color: #212529;
+    }
+
+    /*Menu hamburguesa 6*/
+
+    #hamburgerCheck6 {
+        display: none;
+    }
+    
+    #hamburgerCheck6:checked + .hamburgerTitle6 span {
+        display: none;
+    }
+    
+    #hamburgerCheck6:checked + .hamburgerTitle6:after {
+          content:'x';
+    }
+    
+    #hamburgerCheck6:checked ~ .menu6 {
+        display: block;
+    }
+    
+    .menu6 {
+        display: none;
+        padding: 0;
+    }
+    
+    .menu6 a {
+        color: #212529;
+    }
+
+
+}

@@ -1,0 +1,969 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+.contenedor>div {
+    border: 2px solid rgb(233, 171, 88);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.contenedor2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    /* padding: 10px; */
+}
+
+/* .contenedor2>div {
+    border: 2px solid rgb(56, 6, 90);
+    border-radius: 5px;
+   
+}  */
+
+/* SECCION IMG CABECERA */
+
+.img-cabecera {
+    display: none;
+}
+
+/* seccion iphone 11 */
+
+.iphone11 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.iphone11 h1 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    color: #1d1d1f;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.unit-image-iphone-11-hero {
+    width: 269px;
+    height: 264px;
+    background-size: 269px 264px;
+    background-repeat: no-repeat;
+    background-image: url(/img/iphone11x320.PNG);
+    background-position: center;
+}
+
+.unit-image {
+    z-index: 1;
+    position: relative;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+
+.iphone11 img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+/* seccion watch series 5 */
+
+.watch5 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.image-watch5-hero {
+    margin: 20px auto 0 auto;
+    width: 300px;
+    height: 264px;
+    background-size: 300px 264px;
+    background-repeat: no-repeat;
+    background-image: url("/img/watchseries5.PNG");
+    background-position: center;
+}
+
+.watch5 h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-image {
+    width: 207px;
+    height: 78px;
+    background-size: 207px 78px;
+    background-repeat: no-repeat;
+    background-image: url(/img/logo_hero__trsrpeu6koqy_large.png);
+    background-position: center;
+}
+
+.watch5 img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* seccion macbook*/
+
+.macbook {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.imagen-macbook {
+    margin-top: 60px;
+    width: 310px;
+    height: 307px;
+    background-size: 310px 307px;
+    background-repeat: no-repeat;
+    background-image: url(/img/tile__cauwwcyyn9hy_small_2x.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.macbook h1 {
+    margin-top: -10px;
+    margin-bottom: 0px;
+    color: #1d1d1f;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 700;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.macbook p {
+    font-weight: 600;
+}
+
+/* seccion cuatro - airpods */
+
+.cuatro {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+.cuatro h1 {
+    padding-top: 40px;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.cuatro p {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.airpods {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 258px;
+    height: 333px;
+    background-size: 258px 333px;
+    background-repeat: no-repeat;
+    background-image: url("/img/airpodx320.jpg");
+}
+
+/* SECCION 2 - IPAD */
+
+.dos {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: visible;
+    -webkit-box-flex: 1;
+}
+
+.dos p {
+    padding-top: 10px;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.dos .img-ipad {
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/logo_tile__ex0pdbqxuuuu_medium.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dos img {
+    margin-top: 20px;
+}
+
+.imagen-ipad {
+    background-image: url('/img/tile__cauwwcyyn9hy_small.jpg');
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 536px;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    text-align: center;
+    position: relative;
+    margin-top: -210px;
+    z-index: -1;
+}
+
+/* SECCION ARCADE - JUEGOS */
+
+.tres {
+    background-image: url('/img/tile__cauwwcyyn9hy_small_arcade.jpg');
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 536px;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    text-align: center;
+}
+
+.tres .img-arcade {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/logo__dcojfwkzna2q_medium.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tres p {
+    font-size: 18px;
+    line-height: 0.3;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+.tres a, .tres a:hover {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* SECCION TV PLUS - CINCO */
+
+.cinco {
+    background-image: url('/img/tile__cauwwcyyn9hy_small_tv_plus.jpg');
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    text-align: center;
+}
+
+.cinco .img-tvplus {
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/logo__dcojfwkzna2q_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.cinco .img-tv {
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/tms_logo__d3lgcq7bwnsm_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+.cinco img {
+    padding-top: 40px;
+}
+
+.cinco p {
+    margin: 0 auto 0 auto;
+    width: 75%;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+.cinco a, .cinco a:hover {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    align-items: center;
+}
+
+.material-icons {
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* SECCION MUSIC - SEIS */
+
+.seis {
+    background-image: url('/img/apple_music__gdfamywhn6ye_small.jpg');
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 536px;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    text-align: center;
+}
+
+.seis .img-music {
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/apple_music__fce84m8d6zee_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seis .img-plus {
+    width: 100%;
+    height: 60px;
+    background-image: url(/img/icon_apple_music__bw26tvyfe8k2_small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;
+}
+
+.seis img:first-child {
+    padding-top: 40px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.seis p {
+    width: 75%;
+    padding: 0 5px 0 auto;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.seis a, .seis a:hover {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    align-items: center;
+}
+
+.seis img:last-child {
+    padding-top: 0;
+    display: block;
+    padding-top: 310px;
+    margin: auto;
+    padding: auto;
+    cursor: pointer;
+}
+
+/* ESTILOS NAHUEL */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ---------------------------------- Variables */
+
+:root {
+    --background: #000;
+    --color-text: #f5f5f7;
+    --border-bottom: #6e6e73;
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+/* ---------------------------------------- Navbar */
+
+#navbar {
+    background: var(--background);
+    position: sticky;
+    width: 100%;
+    min-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: var(--z-fixed);
+}
+
+.apple {
+    color: var(--color-text);
+    font-size: 1.5em;
+}
+
+/* ------------------- Menu Hamburguesa */
+
+.menu-hamburguesa {
+    display: inline;
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+}
+
+/* ------------------------------------- Menu down Panel */
+
+.down_panel {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: var(--background);
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    transition: top 0.4s;
+    z-index: -1;
+}
+
+.menu_content {
+    position: absolute;
+    top: 3.52941em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 664px;
+    margin: 0 auto;
+    padding: 0 40px 8px;
+    height: auto;
+    list-style: none;
+}
+
+.down_panel .menu_link {
+    display: block;
+    text-decoration: none;
+    color: var(--color-text);
+    background-position: left center;
+    line-height: 44px;
+}
+
+.menu_items {
+    height: 44px;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+.menu_link {
+    height: 44px;
+}
+
+.icon-buscar {
+    display: none;
+}
+
+/* ------------------------------------ search */
+
+#search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 3.11765em;
+    border-bottom: 1px solid var(--border-bottom);
+    z-index: 10;
+}
+
+.search_container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 2.11765em;
+    border-radius: 8px;
+    background-color: #1d1d1f;
+}
+
+.search_link {
+    width: 29px;
+    text-align: center;
+    color: #fff;
+    padding-top: 0.3em;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.search_buscar {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.search_close {
+    display: none;
+    color: blue;
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+.close-open {
+    display: block;
+}
+
+/* ---------------------------------------------------Header */
+
+#header {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#header .text_content {
+    width: 100%;
+    text-align: center;
+    background: #000;
+    padding: 2rem 0 0;
+    margin: 0;
+}
+
+#header h1 {
+    font-size: 2em;
+    color: var(--color-text);
+}
+
+#header p {
+    font-size: 1.3em;
+    margin-bottom: .5rem;
+    color: var(--color-text);
+}
+
+#header a {
+    font-size: 1.2em;
+    color: #2997ff;
+}
+
+#header .img_header {
+    width: 15rem;
+    padding-top: 4rem;
+}
+
+/* ---------------------------------------------------------MEDIA QUERIES----------------------------------------------- */
+
+@media screen and (min-width:768px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #search {
+        display: none;
+    }
+    .menu-hamburguesa {
+        display: none;
+    }
+    .logo {
+        position: initial;
+    }
+    .down_panel {
+        display: block;
+        position: initial;
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu_content {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+    .menu_items {
+        border: 0;
+        margin: 0 auto;
+    }
+    .icon-buscar {
+        display: block;
+        margin: 0 1rem;
+    }
+    .apple {
+        margin: 0 1rem;
+    }
+    #header {
+        display: none;
+    }
+}
+
+/* FIN ESTIULOS NAHUEL */
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 580px 580px 580px 50px;
+        grid-gap: 10px;
+        grid-template-areas: "cabecera cabecera" "iphone11  iphone11" "watch5 watch5" "uno cuatro" "dos tres" "cinco seis" "footer footer";
+    }
+    .cabecera {
+        grid-area: cabecera;
+    }
+    .iphone11 {
+        grid-area: iphone11;
+    }
+    .watch5 {
+        grid-area: watch5;
+    }
+    .uno {
+        grid-area: uno;
+    }
+    .dos {
+        grid-area: dos;
+    }
+    .tres {
+        grid-area: tres;
+    }
+    .cuatro {
+        grid-area: cuatro;
+    }
+    .cinco {
+        grid-area: cinco;
+    }
+    .seis {
+        grid-area: seis;
+    }
+    .footer {
+        grid-area: footer;
+    }
+    /* fin declaracion area */
+    /* .contenedor2>div {
+        border: 2px solid rgb(56, 6, 90);
+        border-radius: 5px;
+        padding: 0.5em;
+    } */
+    /* SECCION IMG CABECERA */
+    .img-cabecera {
+        display: block;
+        background-image: url('/img/hero__dvsxv8smkkgi_large.jpg');
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        left: calc(50% + -1px);
+        right: auto;
+        bottom: 0px;
+        top: auto;
+        -webkit-transform: translatex(-50%);
+        transform: translatex(-50%);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .img-cabecera h1 {
+        padding-top: 50px;
+        color: #fff;
+        font-size: 52px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    .img-cabecera p {
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 6px;
+    }
+    .img-cabecera a {
+    
+        font-size: 24px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 6px;
+    }
+    /* SECCION IPHONE 11 */
+    .iphone11-img {
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 2560px;
+        height: 624px;
+        background-size: 2560px 624px;
+        background-repeat: no-repeat;
+        background-image: url("/img/iphone11-1200px.jpg");
+        background-position: center;
+    }
+    .unit-image-iphone-11-hero {
+        width: 1096px;
+        height: 443px;
+        background-size: 1096px 443px;
+        background-repeat: no-repeat;
+        background-image: url("/img/iphone1200.PNG");
+    }
+    .iphone11 h1 {
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+    }
+    .iphone11 p {
+        font-size: 28px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+    }
+    .iphone11 a {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+    }
+    /* SECCION WATCH5 */
+    .image-watch5-hero {
+        display: none;
+    }
+    .watch5 {
+        background-image: url('/img/hero.jpg');
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        left: calc(50% + 0px);
+        right: auto;
+        bottom: 0px;
+        top: auto;
+        -webkit-transform: translatex(-50%);
+        transform: translatex(-50%);
+        text-align: center;
+    }
+    .watch5 h2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .watch5 p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        text-align: center;
+        font-size: 28px;
+        line-height: 1.47059;
+        font-weight: 400;
+        letter-spacing: -.022em;
+    }
+    .watch5 a {
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+    }
+    /* seccion macbook */
+    .imagen-macbook {
+        width: 434px;
+        height: 367px;
+        background-size: 434px 367px;
+    }
+    /* SECCION 1- MACBOOK */
+    .uno p:first-child {
+        padding-top: 20px;
+    }
+    .uno p#one {
+        font-size: 21px;
+    }
+    .uno h1 {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+    }
+    /* SECCION 2 - AIRPORT*/
+    .airpods {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 301px;
+        height: 384px;
+        background-size: 301px 384px;
+        background-repeat: no-repeat;
+        background-image: url("/img/airpod.jpg");
+    }
+    /* SECCION 2 - IPAD */
+    .imagen-ipad {
+        background-image: url('/img/tile__cauwwcyyn9hy_large.jpg');
+        margin-top: -150px;
+    }
+    .dos .img-ipad {
+        margin-top: 20px;
+        width: 100%;
+        height: 60px;
+        background-image: url(/img/logo_tile__ex0pdbqxuuuu_large.png);
+    }
+    .dos br {
+        display: none;
+    }
+    /* SECCION 3 - ARCADE */
+    .tres .img-arcade {
+        background-image: url(/img/logo__dcojfwkzna2q_large.png);
+    }
+    .tres p {
+        font-size: 21px;
+    }
+    .tres p:first-of-type {
+        padding-top: 10px;
+    }
+    .tres {
+        height: 100%;
+    }
+    /* SECCION 5 - TV PLUS */
+    .cinco {
+        height: 100%;
+    }
+    .cinco .img-tvplus {
+        padding-top: 20px;
+        background-image: url(/img/logo__dcojfwkzna2q_large.png);
+    }
+    .cinco .img-tv {
+        background-image: url(/img/tms_logo__d3lgcq7bwnsm_large.png);
+        margin-top: 290px;
+    }
+    .cinco p {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: .016em;
+        width: 35%;
+    }
+    /* SECCION 6 - MUSIC */
+    .seis {
+        height: 580px;
+    }
+    .seis .img-music {
+        margin-top: -30px;
+        background-image: url(/img/apple_music__fce84m8d6zee_large.png);
+    }
+    .seis p {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: .016em;
+        width: 30%;
+    }
+    .seis .img-plus {
+        background-image: url(/img/icon_apple_music__bw26tvyfe8k2_large.png);
+        /* padding-bottom: 50px; */
+        margin-top: 340px;
+    }
+}
